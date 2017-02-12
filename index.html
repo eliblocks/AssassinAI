@@ -13,10 +13,24 @@
       <div class="row">
         <div class="col-12">
           <h3>Take a picture of your target</h3>
+          <img id="original_pic" src="cat.jpeg"> 
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
           <label class="btn btn-default btn-primary">Open Camera
             <input type="file" accept="image/*" capture="camera" id="camera" style="display: none;">
           </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12" id="photo">
           <img id="frame">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <span id="result">No Match</span>
         </div>
       </div>
     </div>
