@@ -1,0 +1,19 @@
+
+<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+
+<div class=dossier>
+<label>State your name.<input type="text"></label>
+
+<label>Touch fingerprint to submit mugshot.<img src="http://cjdc.org/wp/wp-content/uploads/2013/07/fingerprint.jpg" style="width: 150px;"><input type="file" accept="image/*" capture="camera" id="camera" style="display: none;">
+  <img id="frame"></label>
+</div>
+<script>
+  var camera = document.getElementById('camera');
+  var frame = document.getElementById('frame');
+
+  camera.addEventListener('change', function(e) {
+    var file = e.target.files[0]; 
+    // Do something with the image file.
+    frame.src = URL.createObjectURL(file);
+  });
+</script>
