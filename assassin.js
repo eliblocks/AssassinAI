@@ -7,4 +7,9 @@ $(function() {
      //Do something with the image file.
     frame.src = URL.createObjectURL(file);
   });
+
+  $( "#camera" ).click(function() {
+    $("#result").html("<h3>No Match</h3>");
+  });
+
 });
