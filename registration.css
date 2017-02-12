@@ -1,0 +1,35 @@
+body {
+  background-image: url("https://www.androidcentral.com/sites/androidcentral.com/files/styles/w550h500/public/wallpapers/grungy-dark-texture-29i.jpg?itok=OGO7IkXO");
+
+  background-size: 100%;
+}
+
+input {
+  font-family: 'Special Elite', cursive;
+}
+label {
+  font-family: 'Special Elite', cursive; 
+}
+
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+img {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.dossier {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  margin-left: 30px;
+  margin-top: 30px;
+  background-color: #dbbda0;
+  background-image: url("http://a.rgbimg.com/cache1qeyNV/users/x/xy/xymonau/300/mX8RmzI.jpg");
+  width: 200px;
+}
+#frame {
+  
+}
