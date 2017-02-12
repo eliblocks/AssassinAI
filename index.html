@@ -10,12 +10,15 @@
   </head>
   <body>
     <div class="container">
-      <h3>Take a picture of your target</h3>
-      <label class="btn btn-default btn-primary">Open Camera
-        <input type="file" accept="image/*" capture="camera" id="camera" style="display: none;">
-      </label>
-      <img id="frame">
-    </div>
+      <div class="row">
+        <div class="col-xs-10 offset-xs-1">
+          <h3>Take a picture of your target</h3>
+          <label class="btn btn-default btn-primary">Open Camera
+            <input type="file" accept="image/*" capture="camera" id="camera" style="display: none;">
+          </label>
+          <img id="frame">
+        </div>
+      </div>
     <script>
       var camera = document.getElementById('camera');
       var frame = document.getElementById('frame');
